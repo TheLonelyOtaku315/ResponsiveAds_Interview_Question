@@ -62,6 +62,6 @@ console.log("Answer 2 (AND)", answer2And);
 
 // Use require to load pokes.json in Node.js
 function getPokes() {
-  const data = require("./pokes.json");
+  const data = require("../pokes.json");
   return data;
 }
